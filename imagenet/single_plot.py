@@ -258,6 +258,7 @@ def main(arguments):
     perf_file = args.input_file
     health_log = args.nn_summary
 
+    # comment out plotAcc and return command if you want to see the healthlogs
     plotAcc(perf_file, total_task = 5, stat_win_sz = 1)
     return
     if health_log is not None:
